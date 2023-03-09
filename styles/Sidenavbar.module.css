@@ -1,0 +1,77 @@
+.Image{
+  display: block;
+  position: relative;
+  left: 0px;
+  margin: 20px 0px 10px;
+  transition: left 0.1s ease 0s;
+  
+}
+
+.logo{
+  padding-bottom: 1rem;
+  padding-left: 0.59rem;
+}
+.side{
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 60px;
+  background: rgb(7, 71, 166);
+  transition: all 0.1s ease 0s;
+  transform: translateZ(0px);
+
+}
+.side:hover{
+  width: 14%;
+}
+.side:hover .h3{
+  visibility: visible;
+  opacity: 1;
+
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  cursor: pointer;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  opacity: 0.88;
+  
+
+}
+.search:hover{
+  background: rgba(255, 255, 255, 0.1);
+}
+.i{
+  display: flex;
+  padding-left: 0.59rem;
+  padding-right: 2rem;
+  align-items: center;
+}
+
+
+.h3{
+  
+  position: relative;
+  right: 12px;
+  visibility: hidden;
+  opacity: 0;
+  text-transform: uppercase;
+  font-family: CircularStdBold;
+  font-weight: 500;
+  font-size: 15px;
+  transition: visibility 0s, opacity 0.3s ease, right 0.3s ease;
+  
+
+}
+
+
+.ul{
+  list-style: none;
+  
+}

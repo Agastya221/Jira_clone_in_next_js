@@ -1,0 +1,85 @@
+.logo_container{
+    display: flex;
+    padding: 24px 4px;
+}
+
+
+.top{
+    display: flex;
+    flex-direction: row;  
+    position: relative;
+    display: flex;
+    color: #4e5262;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+  
+}
+
+.top:hover{
+    
+    background: rgb(235, 236, 240);
+}
+.top:active{
+    color: rgb(0, 82, 204);
+    background: rgb(235, 236, 240);
+}
+.Disable{
+    display: flex;
+    flex-direction: row;  
+    position: relative;
+    display: flex;
+    color: #4e5262;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: not-allowed;
+}
+.implemented{
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 40px;
+    width: 140px;
+    padding: 5px 0px 5px 8px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: rgb(66, 82, 110);
+    background: rgb(223, 225, 230);
+    opacity: 0;
+    font-size: 11.5px;
+    
+}
+.implemented:hover{
+    opacity: 1;
+}
+
+.i{
+    
+    margin-right: 15px;
+    font-size: 20px;
+
+}
+.a{
+    text-decoration: none;
+    padding-top: 2px;
+    font-size: 14.7px;
+    color: #4e5262;
+}
+.anchor{
+    text-decoration: none;
+    padding: 0 3px;
+    padding-top: 2px;
+    font-size: 14.7px;
+    color: #4e5262;
+    border-radius: 3px;
+    cursor: not-allowed;
+}
+.anchor:hover{
+    
+}
+
+.border{
+    margin-top: 17px;
+    padding-top: 18px;
+    border-top: 1px solid rgb(193, 199, 208);
+}

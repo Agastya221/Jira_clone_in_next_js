@@ -1,0 +1,41 @@
+.rootfileDesign{
+  
+    font-size: 15px;
+
+}
+.line{
+  
+    position: relative;
+    top: 2px;
+    margin: 0px 10px;
+    font-size: 18px;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+.Kanban{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+.linkheading{
+    
+    padding: 0px 12px;
+    border-radius: 2px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    background: rgb(244, 245, 247);
+    color: rgb(66, 82, 110);
+}
+.links{
+   
+    color: rgb(94, 108, 132);
+    text-decoration: none;
+    
+}
+.p{
+    padding-left: 7px;
+}

@@ -1,5 +1,5 @@
 .rootfileDesign{
-  
+    color: rgb(23, 43, 77);
     font-size: 15px;
 
 }
@@ -18,7 +18,8 @@
 .Kanban{
     font-size: 24px;
     color: black;
-    font-weight: bold;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 .linkheading{
     
@@ -38,4 +39,35 @@
 }
 .p{
     padding-left: 7px;
+}
+.container{
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    position: relative;
+}
+.inputContainer{
+    margin-right: 18px;
+    width: 160px; 
+}
+.input{
+    height: 100%;
+    width: 100%;
+    padding: 0px 7px 0px 32px;
+    border-radius: 3px;
+    border: 1px solid rgb(223, 225, 230);
+    color: rgb(23, 43, 77);
+    background: rgb(244, 245, 247);
+    transition: background 0.1s ease 0s;
+    font-family: CircularStdBook;
+    font-weight: normal;
+    font-size: 25px;
+    /* position: relative; */
+}
+.search{
+    position: absolute;
+    top: 6px;
+    left: 5px; 
+    pointer-events: none;
+    /* color: rgb(94, 108, 132); */
 }

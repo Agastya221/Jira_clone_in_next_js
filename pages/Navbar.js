@@ -8,7 +8,6 @@ import { FiSettings,FiTruck,FiServer,FiCreditCard,FiFileText,FiTrendingUp } from
 
 const Navbar = () => {
   return (
-    
     <div className="Nav">
      <Container  maxWidth="sm" sx={{ display:"flex", flexDirection:"column"}}>
       <div className={css.logo_container}>
@@ -17,7 +16,7 @@ const Navbar = () => {
       </div>
         <div className={css.top}>
           <i className={css.i}><FiCreditCard/></i>
-          <Link  href={"kan"} className={css.a}>Kanban Board
+          <Link  href='/MainContent' className={css.a}>Kanban Board
           </Link>
         </div>
         <div className={css.top}>

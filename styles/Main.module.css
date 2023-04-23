@@ -15,6 +15,7 @@
     justify-content: space-between;
     margin-top: 6px;
 }
+
 .Kanban{
     font-size: 24px;
     color: black;
@@ -23,7 +24,7 @@
 }
 .linkheading{
     
-    padding: 0px 12px;
+    padding:  2px 12px 0px;
     border-radius: 2px;
     background-color: black;
     display: flex;
@@ -31,12 +32,17 @@
     background: rgb(244, 245, 247);
     color: rgb(66, 82, 110);
 }
+.linkheading:hover{
+    background: rgb(235, 236, 240);
+}
 .links{
-   
+    display: flex;
+    align-items: center;
     color: rgb(94, 108, 132);
     text-decoration: none;
     
 }
+
 .p{
     padding-left: 7px;
 }
@@ -46,10 +52,23 @@
     align-items: center;
     position: relative;
 }
+
 .inputContainer{
     margin-right: 18px;
     width: 160px; 
 }
+.inputContainer:active{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(76, 154, 255);
+    box-shadow: rgb(76, 154, 255) 0px 0px 0px 1px;
+}
+.inputContainer:focus{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(76, 154, 255);
+    box-shadow: rgb(76, 154, 255) 0px 0px 0px 1px;
+}
+
+
 .input{
     height: 100%;
     width: 100%;
@@ -62,6 +81,9 @@
     font-family: CircularStdBook;
     font-weight: normal;
     font-size: 25px;
+    outline: none;
+    /* position: relative
+    
     /* position: relative; */
 }
 .search{
@@ -70,4 +92,48 @@
     left: 5px; 
     pointer-events: none;
     /* color: rgb(94, 108, 132); */
+}
+.dndcontiner{
+    display: flex;
+    margin: 26px -5px 0px;
+}
+.flexcontiner{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+    min-height: 400px;
+    width: 25%;
+    border-radius: 3px;
+    background: rgb(244, 245, 247);
+}
+.heading{
+    padding: 13px 10px 17px;
+    text-transform: uppercase;
+    color: rgb(94, 108, 132);
+    font-size: 12.5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.dragcontainer{
+    height: 100%;
+    padding: 0px 5px;
+}
+.dragAblecontainer{
+    padding: 10px;
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 2px 0px;
+    transition: background 0.1s ease 0s;
+    cursor: pointer;
+    -webkit-user-select: none;
+
+}
+.p{
+    padding-bottom: 11px;
+    font-size: 15px;
+    line-height: 1.42;
+}
+.tick{
+    color: #4fade6;
 }

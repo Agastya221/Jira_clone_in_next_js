@@ -34,6 +34,7 @@
 }
 
 .search{
+  color: white;
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
@@ -48,6 +49,7 @@
   background: rgba(255, 255, 255, 0.1);
 }
 .i{
+  color: white;
   display: flex;
   padding-left: 0.59rem;
   padding-right: 2rem;

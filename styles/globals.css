@@ -6,7 +6,13 @@
   font-size: 16px;
   
 }
+html {
+  overflow-y: scroll;
+}
 
+body {
+  overflow-y: hidden;
+}
 html,
 body {
   color: rgb(23, 43, 77);

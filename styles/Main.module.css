@@ -93,9 +93,18 @@
     pointer-events: none;
     /* color: rgb(94, 108, 132); */
 }
-.dndcontiner{
+.wholediv{
     display: flex;
     margin: 26px -5px 0px;
+}
+.dndcontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+    min-height: 400px;
+    width: 25%;
+    border-radius: 3px;
+    background: rgb(244, 245, 247);
 }
 .flexcontiner{
     display: flex;
@@ -118,6 +127,7 @@
 .dragcontainer{
     height: 100%;
     padding: 0px 5px;
+    
 }
 .dragAblecontainer{
     padding: 10px;
@@ -129,7 +139,7 @@
     -webkit-user-select: none;
 
 }
-.p{
+.ptagofdarg{
     padding-bottom: 11px;
     font-size: 15px;
     line-height: 1.42;
